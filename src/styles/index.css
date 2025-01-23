@@ -1,4 +1,19 @@
 
+.task {
+    position: relative;
+  }
+  
+  .deleteButton {
+    display: none;
+    position: absolute;
+    right: 10px;
+  }
+  
+  .task:hover .deleteButton {
+    display: inline-block;
+  }
+
+
 /* 
 
     You can write your own styles here...
